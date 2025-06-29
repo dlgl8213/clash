@@ -1,9 +1,5 @@
-  - DOMAIN-SUFFIX,kuaishou.com,DIRECT
-  - DOMAIN-SUFFIX,ksyun.com,DIRECT
-  - DOMAIN-SUFFIX,kspkg.com,DIRECT
-  - DOMAIN-KEYWORD,kuaishou,DIRECT
-  - DOMAIN-KEYWORD,kspkg,DIRECT
-  - DOMAIN-KEYWORD,kscdn,DIRECT
-  - IP-CIDR,101.226.0.0/16,DIRECT,no-resolve
-  - IP-CIDR,101.227.0.0/16,DIRECT,no-resolve
-  - IP-CIDR,111.206.0.0/16,DIRECT,no-resolve
+payload:
+    - +.kuaishou.com
+    - +.ksyun.com
+    - +.kspkg.com
+    - +.kscdn
